@@ -1,0 +1,573 @@
+`
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Sharvin's page</title>
+<link rel="icon" type="image/x-icon" href="./WIN_20220614_20_39_33_Pro.jpg">
+<link rel="stylesheet" href="./learningCSS.css">
+<link rel="stylesheet" href="./learningJS.js">
+</head>
+<meta charset="UTF-8">
+<body>
+<button id="C5" type="button" class="link"  onclick="document.write(20 + 20)" width="100%"> document write </button> 
+<button type="button" class="link" onclick="window.print()" width="100%">Print this page</button> 
+<button type="button" class="link" onclick="alert('thanks for clicking me')" width="100%">click me</button>  |
+<button type="button" class="link" onclick="constfunction()" onmouseover="document.getElementById('caps').innerHTML = Date()" onkeypress="document.getElementById('caps').innerHTML = Date()" >click me for a date, hover, or press key</button>
+<button type="button" class="link" onclick="document.getElementById('caps').innerHTML = 'click the button to show the date or hover'; sharvinfunction();">click to go back</button>  |
+<button type="button" class="link disabled"> can't click me heheh</button>
+<button type="button" class="link" onclick="happyfunction()">how do you feeling</button>
+<button type="button" class="button button:hover link"> hover pls</button> |
+<button type="button" class="link" onclick="omgfunction()">change cursor</button>
+<p id="caps"> click the button to show the date or hover </p>
+<span>click button</span>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<h1 style="font-size: 10vw;">Welcome to sharvin's page</h1>
+<h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">second heading</h2>
+<h3 style="font-size: 300%;">hihiihihihi</h3>
+<h4 style="color:DodgerBlue;">hgihihikhiii</h4>
+<h5 id="C4">gooooooooooo</h5>
+<h6 id="myheader">ihihhiihihihihihih</h6>
+<button type="button" class="link" onclick="document.getElementById('12345').innerHTML = 'you used javascript' ">Click Me!</button>
+<button type="button" class="link" onclick="charanfunction()" >click me do it again</button>
+<p id="12345"> click botton to use javascript</p>
+<p id="test"></p>
+<img id="myImage" src="https://miro.medium.com/max/900/1*q99J7XLYVWgOt69E8IuXqw.gif" width="100" height="180">
+<button type="button" class="link" onclick="imageSwitcher('https://cdn.glitch.com/0e4d1ff3-5897-47c5-9711-d026c01539b8%2Fbddfd6e4434f42662b009295c9bab86e.gif?v=1573157191712', 'myImage')">404ey</button>
+<button type="button" class="link" onclick="light(0)">monkey</button>
+<button type="button" class="link" onclick="light(2)">robotey</button>
+<p title="SHARVIN">HELLLO <BR> <span style="color:blue;font-weight:bold">Hello</span> </BR> </p>
+<hr>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<div class="loader"></div>
+<br>
+<br>
+<caption id="caption">type your email, ,username, and password</caption>
+<br>
+<p class="para">Number:</p><input type="range" class="what" step="1" style="width: 379px; cursor:grab;"  id="place" placeholder="enter the correct Number" min="-100" max="100" autocomplete="off" list="tickmarks" required>
+<datalist id="tickmarks">
+<option value="-100" label="-100%"></option>
+<option value="-90"></option>
+<option value="-80"></option>
+<option value="-70"></option>
+<option value="-60"></option>
+<option value="-50"></option>
+<option value="-40"></option>
+<option value="-30"></option>
+<option value="-20"></option>
+<option value="-10"></option>
+<option value="0" label="0%"></option>
+<option value="10"></option>
+<option value="20"></option>
+<option value="30"></option>
+<option value="40"></option>
+<option value="50"></option>
+<option value="60"></option>
+<option value="70"></option>
+<option value="80"></option>
+<option value="90"></option>
+<option value="100"label="100%"></option>
+</datalist>
+<br>
+<p class="para">Email:</p> <input type="Email" class="what" placeholder="enter your email" id="living" style="width: 381px;" autocomplete="off">
+<br>
+<p class="para">username:</p>
+<input type="search" id="ins" style="width: 360px;" placeholder="enter username" class="usernametext" autocomplete="off" required>
+<br>
+<p class="para">password:</p>
+<input style='width: 355px;' type="password" id="myInput" placeholder="enter password" autocomplete="off" required>
+<br>
+<p class="para">re-enter password:</p>
+<input type="password" style="width: 298px;" id="sharvininput" placeholder="re-enter password" autocomplete="off" required>
+<br>
+<input style="cursor:url('./hover2.0.png');" type="checkbox" onclick="deepafunction()" class="usernametext spin">Show Password
+<input style="cursor:url('./hover2.0.png');" type="checkbox" onclick="shievinfunction()" class="usernametext spin">hide username 
+<br>
+<button type="button" style="cursor:url('./hover2.0.png');" class="link botton longbutton" onclick="rabbitfunction()">login</button>
+<br>
+<button type="button" style="cursor:url('./hover2.0.png');" id="light" class="link longbutton" onclick="yayfunction()">type your secret username and password</button>
+<br>
+<button style="cursor:url('./hover2.0.png');" type="button" class="link inputpassword" onclick="alert('Hint: Username: sharvin** password: chsh****'); document.getElementById('num').innerHTML = 'hint needed' ">Need help click here</button>
+<button style="cursor:url('./hover2.0.png');" type="button" class="link inputpassword" onclick="alert('Password saved!'); document.getElementById('num').innerHTML = 'password saved'; ">click here to save passwords</button>
+<button style="cursor:url('./hover2.0.png');" type="button" class="link inputpassword" onclick="document.getElementById('num').innerHTML = 'output';">click here to reset the output</button>
+<button style="cursor:url('./hover2.0.png');" type="button" class="link inputpassword" onclick="rangeFunction()">know your number</button>
+<button style="cursor:url('./hover2.0.png');" class="link inputpassword" type="button" onclick="resetfunction()">click here to reset</button>
+<br>
+<button onclick="pagefunction()" class="float link longbutton">Sign Up</button>
+<br>
+<br>
+<br>
+    <div id='youtube' style="display: none;">
+    <br>
+    <p class="para float">Sign up</p> 
+    <br>
+    <p class="para float">Number:</p>
+    <input type="range" id="f11" class="float" style="width: 941px; cursor:grab;" ondrag="" step="1" min="-100" max="100" list="internet">
+    <datalist id="internet">
+        <option value="-100" label="-100%"></option>
+        <option value="-90"></option>
+        <option value="-80"></option>
+        <option value="-70"></option>
+        <option value="-60"></option>
+        <option value="-50"></option>
+        <option value="-40"></option>
+        <option value="-30"></option>
+        <option value="-20"></option>
+        <option value="-10"></option>
+        <option value="0" label="0%"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"label="100%"></option>
+        </datalist>
+    <br>
+    <br>
+    <p class="para float">Username:</p> 
+    <input style="width: 927px;" id="f12" class="float" type="text" placeholder="put username" autocomplete="off" >
+    <br>
+    <br>
+    <p class="para float">Password:</p> 
+    <input type="password" id="f10" class="float" style="width: 931px;" placeholder="put your passsword here">
+    <br>
+    <br>
+    <button type="button" class="link float longbutton" onclick="paperfunction()">close</button>
+    </div>
+<p id="num">output <button onclick="butonFunction()" class="link">click me</button></p>
+<br>
+<br>
+<a href="https://www.w3schools.com/html/"> this is a link in w3shchool</a>
+<br>
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+<br>
+<a href="https://www.w3schools.com/" target="_parent">Visit W3Schools!</a>
+<br>
+<a href="https://www.w3schools.com/" target="_top">Visit W3Schools!</a>
+<br>
+<a href="https://www.w3schools.com/" target="_self">Visit W3Schools!</a>
+<br>
+<a href="https://www.w3schools.com/html/html_links.asp" class="linkcolor">
+</a>
+<br>
+<a href="">send email</a>
+<br>
+<hr>
+<button onclick="document.location='./learning1test.html'" class="link" class="Visited">click here to test</button>
+<br>
+<a href="./learning1test.html" title="learing1test.html" class="linkcolor" >click me</a>
+<br>
+<map name="sharvin">hihihihihihihi</map>
+<area shape="default" href="./learning1test.html">
+<img src="http://i.stack.imgur.com/SBv4T.gif" alt="gift">
+<br><br><br><br><br>
+<picture>
+<source media="(min-width: 1000px)" srcset="./WIN_20220614_20_33_08_Pro.jpg">
+<img src="./WIN_20220614_20_33_08_Pro.jpg">
+</picture>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<img src="./WIN_20220614_20_33_08_Pro.jpg" alt="" style="max-width:100%;height:auto;">
+<br>
+<hr>
+
+<p>calculater </p>
+<p id="tab"></p>
+<p>sharvinvenkatchandran</p>
+
+
+<hr>
+<br>
+<p style="background-color:blue ;"> hihhihihih</p>
+<p style="color:blue ;">hihihihihihihi</p>
+<p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">hihihiihih</p>
+<p style="text-align:center;"> hihihiihihihih</p>
+<b>thisi is bold</b>
+<br>    
+<strong> this is strong</strong>    
+<br>
+<i> hihihiihhihihi</i>
+<br>
+<em>hihihihihihihi</em>
+<small> i'm</small>
+<p>  <mark>this</mark> word is <del>marked</del>  </p>
+<p>my favorite color is <del>pink</del> <ins><mark>blue</mark></ins> </p>
+<p>This is <sub>subscripted</sub> <sup>superscripted</sup> text.</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+    The world's leading conservation organization,
+    WWF works in 100 countries and is supported by
+    1.2 million members in the United States and
+    close to 5 million globally.
+    </blockquote>   
+<p>hihihihihihihi
+<q>hihihiihhihihi   </q>
+THIS IS <abbr title="hahahahh">HAHAHAHA</abbr>
+</p>
+<address>
+<pre>ILL
+    palitine
+    South bennet Ave
+    450
+</pre>
+</address>
+
+<pre>
+    sharvin
+
+    hi
+
+    how are you doing
+</pre>
+<p><cite>this is a cite</cite></p>
+
+<p>
+    hi
+    hi
+</p>
+<bdo dir="rtl">sdrawkcab si sihT</bdo>
+<p><a href="sharvin">hihiihihihi</a></p>
+
+
+<table style="width: 100px;">
+<caption>Family information</caption>
+<colgroup>
+<col span="4" style="background-color:blueviolet ;">
+<colgroup> 
+<tr>
+<th style="width:50%">deepa</th>
+<th style="width:50%">chandran</th>
+<th style="width:50%">sharvin</th>
+<th style="width:50%">charan</th>
+</tr>
+<tr style="height: 50px;">
+<td>44 old</td>
+<td>47 old</td>
+<td>9 old</td>
+<td>15 old</td>
+</tr>
+<tr>
+<td>tallest</td>
+<td>tallest</td>
+<td>tallest</td>
+<td>tallest</td>
+</tr>
+<tr>
+<td>third</td>
+<td>first</td>
+<td>last</td>
+<td>second</td>
+</tr>
+</table>
+
+
+<table>
+<caption>test table</caption>
+<tr>
+<th colspan="4" rowspan="2">test table</th>
+<colgroup>
+<col span="4" style="background-color:blueviolet ;" style="visibility:collapse ;">
+<colgroup>    
+<tr style="height: 50px;">
+    <td>44 old</td>
+    <td>47 old</td>
+    <td>9 old</td>
+    <td>15 old</td>
+    </tr>
+    <tr>
+    <td>tallest</td>
+    <td>tallest</td>
+    <td>tallest</td>
+    <td>tallest</td>
+    </tr>
+    <tr>
+    <td>third</td>
+    <td>first</td>
+    <td>last</td>
+    <td>second</td>
+    </tr>
+
+</table>
+
+<video width="1350" lenght="5000" controls>
+  
+<source src="./WIN_20220617_15_17_35_Pro.mp4">
+
+</video>
+
+<ul style="list-style-type:circle;">
+<li>
+<pre>
+    sharvin
+    deepa
+    chandran
+    charan
+</pre>
+</li>
+</ul>
+
+<ol type="I" start="1000">
+<pre>
+<li>hihihihihihihi</li>
+<li>hihihihihihihi</li>
+<li>hihihihihihihi</li>
+</pre>
+</ol>
+
+<br>
+<br>
+<br>
+
+<dl>
+    <dt>sharvin</dt>
+    <dd> strong and big</dd>
+    <hr>
+    <dt>charan</dt>
+    <dd>weak and small</dd>
+</dl>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<button  type="button" class="link" onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p width="100" lenght="100" class="p">Time</p>
+<p id="demo" class="p"></p>
+<p id="qwerty"></p>
+<!-- test -->
+
+<code>
+    <pre>
+        x = 2;
+        y = 2(3+5);
+        z = x + y
+    </pre>
+</code>
+<br>
+<p>press <kbd>ctrl + z</kbd></p>
+<br>
+<p>Message from my computer:</p>
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+<br>
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+<article>
+<h2>Google Chrome</h2>
+<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+</article>
+<br>
+<section>
+<h1>WWF</h1>
+<p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+<br>
+<footer>
+<p> mail to sharvin </p>
+<p><a href="mailto:sharvinvenkatchandran@gmail.com">mail to sharvin</a></p>
+</footer>
+<br>
+<aside>
+<p>hi how are you doing</p>
+</aside>
+<br>
+<br>
+<br>
+<br>
+<figure>
+<figcaption>sharvin </figcaption>
+</figure>
+
+<caption> iframe shower tool</caption>
+<caption>tv</caption>
+<p class="p"><a href="./boringsite.html" target="iframeshower">click me for a boring site</a></p>
+<iframe src="./learning1.html" frameborder="10" height="500" width="1336" title="Iframe shower" name="iframeshower"></iframe>  
+<marquee direction="right">deepa is mean</marquee>
+<marquee direction="left">deepa is smart</marquee>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="#C5">go to the top</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>the odin project</p>
+<!-- The odin project -->
+@
+
+<!-- End of odin project-->
+
+<!-- java script -->
+<script src="./learningJS.js">
+
+
+</script>
+<noscript>Sorry, your browser does not support JavaScript please use a different browser</noscript>
+</body>
+</html>
+<!-- this is remeber
+  non-breaking space	&nbsp;	&#160;	
+  <	less than	&lt;	&#60;	
+  >	greater than	&gt;	&#62;	
+  &	ampersand	&amp;	&#38;	
+  "	double quotation mark	&quot;	&#34;	
+  '	single quotation mark (apostrophe)	&apos;	&#39;	
+  ¢	cent	&cent;	&#162;	
+  £	pound	&pound;	&#163;	
+  ¥	yen	&yen;	&#165;	
+  €	euro	&euro;	&#8364;	
+  ©	copyright	&copy;	&#169;	
+  ®	registered trademark	&reg;	&#174;
+
+
+  -----------------------------------
+  another ones to remember
+ ̀	a	a&#768;	à	
+ ́	a	a&#769;	á	
+ ̂	a	a&#770;	â	
+ ̃	a	a&#771;	ã	
+ ̀	O	O&#768;	Ò	
+ ́	O	O&#769;	Ó	
+	̂	 O	O&#770;	Ô	
+ ̃	O	O&#771;	Õ
+
+
+ ----------------------------
+            math
+
+∀	&#8704;	&forall;	FOR ALL	
+∂	&#8706;	&part;	PARTIAL DIFFERENTIAL	
+∃	&#8707;	&exist;	THERE EXISTS	
+∅	&#8709;	&empty;	EMPTY SETS	
+∇	&#8711;	&nabla;	NABLA	
+∈	&#8712;	&isin;	ELEMENT OF	
+∉	&#8713;	&notin;	NOT AN ELEMENT OF	
+∋	&#8715;	&ni;	CONTAINS AS MEMBER	
+∏	&#8719;	&prod;	N-ARY PRODUCT	
+∑	&#8721;	&sum;	N-ARY SUMMATION
+
+--------------------------------------
+            greek
+
+Α	&#913;	&Alpha;	GREEK CAPITAL LETTER ALPHA	
+Β	&#914;	&Beta;	GREEK CAPITAL LETTER BETA	
+Γ	&#915;	&Gamma;	GREEK CAPITAL LETTER GAMMA	
+Δ	&#916;	&Delta;	GREEK CAPITAL LETTER DELTA	
+Ε	&#917;	&Epsilon;	GREEK CAPITAL LETTER EPSILON	
+Ζ	&#918;	&Zeta;	GREEK CAPITAL LETTER ZETA
+
+-------------------------------------------------------
+            other
+
+
+©	&#169;	&copy;	COPYRIGHT SIGN	
+®	&#174;	&reg;	REGISTERED SIGN	
+€	&#8364;	&euro;	EURO SIGN	
+™	&#8482;	&trade;	TRADEMARK	
+←	&#8592;	&larr;	LEFTWARDS ARROW	
+↑	&#8593;	&uarr;	UPWARDS ARROW	
+→	&#8594;	&rarr;	RIGHTWARDS ARROW	
+↓	&#8595;	&darr;	DOWNWARDS ARROW	
+♠	&#9824;	&spades;	BLACK SPADE SUIT	
+♣	&#9827;	&clubs;	BLACK CLUB SUIT	
+♥	&#9829;	&hearts;	BLACK HEART SUIT	
+♦	&#9830;	&diams;	BLACK DIAMOND SUIT
+
+-------------------------------------------------
+            emojis
+
+🗻	&#128507;	
+🗼	&#128508;	
+🗽	&#128509;	
+🗾	&#128510;	
+🗿	&#128511;	
+😀	&#128512;	
+😁	&#128513;	
+😂	&#128514;	
+😃	&#128515;	
+😄	&#128516;	
+😅	&#128517;
+
+---------------------------------------------------
+                    math 
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+--------------------
+Operator	Example	Same As
+=	  x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+---------------------------
+==	equal to
+===	equal value and equal type
+!=	not equal
+!==	not equal value or not equal type
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+?	ternary operator
+----------------------
+&&	logical and
+||	logical or
+!	logical not
+-------------------
+typeof	Returns the type of a variable
+instanceof	Returns true if an object is an instance of an object type
+--------------------------------------------------
+&	AND	5 & 1	0101 & 0001	0001	 1
+|	OR	5 | 1	0101 | 0001	0101	 5
+~	NOT	~ 5	 ~0101	1010	 10
+^	XOR	5 ^ 1	0101 ^ 0001	0100	 4
+<<	left shift	5 << 1	0101 << 1	1010	 10
+>>	right shift	5 >> 1	0101 >> 1	0010	  2
+>>>	unsigned right shift	5 >>> 1	0101 >>> 1	0010	  2
+--------------------------------------------------------------------
+                     javascript
+\b	Backspace
+\f	Form Feed
+\n	New Line
+\r	Carriage Return
+\t	Horizontal Tabulator
+\v	Vertical Tabulator
+-------------------------------------------------------------------------
+`
+
+
