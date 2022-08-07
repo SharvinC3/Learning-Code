@@ -24,3 +24,35 @@ else {
 }
 
 }
+
+function blenderfunction() {
+    const blender = document.getElementById('blender')
+
+    if(blender.style.display == 'none') {
+        blender.style.display === 'block'
+
+    }
+    else {
+        blender.style.display === 'none'
+
+    }
+}
+
+function modalfunction() {
+
+    if(document.getElementById('lol').style.display = 'none') {
+        document.getElementById('lol').style.display = 'block'
+
+    }
+}
+
+function modalclosefunction() {
+    const modal = document.getElementById('lol')
+
+if(modal.style.display = 'block') {
+modal.style.display = 'none'
+
+}
+
+}
+
